@@ -18,10 +18,7 @@ body{
 #start{
     font-size: 18px;
 }
-#status{
-    font-size: 18px;
-}
-#number_of_objects{
+#status, #object_status{
     font-size: 18px;
 }
 .copy_right_footer{
