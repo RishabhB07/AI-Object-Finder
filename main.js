@@ -21,13 +21,13 @@ function draw(){
             if(objects[i].label==object_name){
               document.getElementById("object_status").innerHTML=object_name+" found";
               synth=window.speechSynthesis;
-              utterThis=new SpeechSynthesisUtterance(object_name+"found");
+              utterThis=new SpeechSynthesisUtterance(object_name+" found");
               synth.speak(utterThis);
             }
             else{
               document.getElementById("object_status").innerHTML=object_name+" not found";
               synth=window.speechSynthesis;
-              utterThis=new SpeechSynthesisUtterance(object_name+"not found");
+              utterThis=new SpeechSynthesisUtterance(object_name+" not found");
               synth.speak(utterThis);
             }          
         }
